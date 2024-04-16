@@ -122,6 +122,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.sensor_env
+sensor_env/
 env/
 venv/
 ENV/

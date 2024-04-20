@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+artifact
+.vscode
 
 # C extensions
 *.so
@@ -9,6 +11,9 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+
+.artifact
+*.artifact
 develop-eggs/
 dist/
 downloads/

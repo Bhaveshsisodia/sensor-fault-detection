@@ -19,6 +19,8 @@ if __name__=='__main__':
     # print(data_ingestion_config.__dict__)
     # print(MongoDBClient().database_name)
 
-
-    training_pipeline =TrainPipeline()
-    training_pipeline.run_pipeline()
+    try:
+        training_pipeline =TrainPipeline()
+        training_pipeline.run_pipeline()
+    except Exception as e:
+        logging.exception(e )

@@ -4,5 +4,6 @@ pandas
 certifi
 scikit-learn==1.1.3
 pyYAML
+scipy
 -e .
 

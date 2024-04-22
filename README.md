@@ -15,16 +15,17 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 5. Mongodb
 
 ## Infrastructure Required
-1.AWS S3
-2.AWS EC2
-3.AWS ECR
-4.Git Actions
-5.Terraform
+1. AWS S3
+2. AWS EC2
+3. AWS ECR
+4. Git Actions
+5. Terraform
 
 ## How to Run?
 Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, ECR and EC2 instances.
 
 ## Data Collections
+![alt text](https://github.com/Bhaveshsisodia/sensor-fault-detection/blob/3b898fbe0daae32342a02179d7c930335d442770/flowcharts/data_collection.png)
 
 ## Project Archietecture
 ## Deployment Archietecture
